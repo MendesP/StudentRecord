@@ -1,0 +1,14 @@
+﻿<Window x:Class="_40218056_SoftDev2_CW1.Invoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Invoice" Height="252.919" Width="274.818">
+    <Grid>
+        <Label x:Name="lbl_invInstitutionName" Content="Edinburgh Napier University" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="250" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="lbl_invInstitutionAddress" Content="Merchiston Campus, EH11 4TX" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="lbl_invConferenceNameLabel" Content="Conference Name" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_invCostLabel" Content="Price" HorizontalAlignment="Left" Margin="210,96,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_invConferenceName" Content="Cloud Services" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_invCost" Content="£500" HorizontalAlignment="Left" Margin="212,122,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

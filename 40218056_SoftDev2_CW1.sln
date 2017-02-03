@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40218056_SoftDev2_CW1", "40218056_SoftDev2_CW1\40218056_SoftDev2_CW1.csproj", "{DA6151A2-5C30-46AD-82F7-A3DBFA6D8D16}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Student_Record_Class_Diagram", "Student_Record_Class_Diagram\Student_Record_Class_Diagram.modelproj", "{3FADF908-DEC5-42E2-A684-44248F971693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA6151A2-5C30-46AD-82F7-A3DBFA6D8D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6151A2-5C30-46AD-82F7-A3DBFA6D8D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6151A2-5C30-46AD-82F7-A3DBFA6D8D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6151A2-5C30-46AD-82F7-A3DBFA6D8D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FADF908-DEC5-42E2-A684-44248F971693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FADF908-DEC5-42E2-A684-44248F971693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FADF908-DEC5-42E2-A684-44248F971693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FADF908-DEC5-42E2-A684-44248F971693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿<Window x:Class="_40218056_SoftDev2_CW1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="398" Width="452">
+    <Grid>
+        <Label x:Name="lbl_name" Content="Name" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_attendeeRef" Content="Attendee Ref" HorizontalAlignment="Left" Margin="25,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_institutionName" Content="Institution Name" HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_institutionAddress" Content="Institution Address" HorizontalAlignment="Left" Margin="25,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_conferenceName" Content="Conference Name" HorizontalAlignment="Left" Margin="25,132,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.038"/>
+        <Label x:Name="lbl_registrationType" Content="Registration Type" HorizontalAlignment="Left" Margin="25,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_paid" Content="Paid" HorizontalAlignment="Left" Margin="25,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_presenter" Content="Presenter" HorizontalAlignment="Left" Margin="25,225,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_paperTitle" Content="Paper Title" HorizontalAlignment="Left" Margin="25,256,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_set" Content="Set" HorizontalAlignment="Left" Margin="25,313,0,0" VerticalAlignment="Top" Width="75" Click="btn_set_Click"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="105,313,0,0" VerticalAlignment="Top" Width="75" Click="btn_clear_Click"/>
+        <Button x:Name="btn_get" Content="Get" HorizontalAlignment="Left" Margin="185,313,0,0" VerticalAlignment="Top" Width="75" Click="btn_get_Click"/>
+        <Button x:Name="btn_invoice" Content="Invoice" HorizontalAlignment="Left" Margin="265,313,0,0" VerticalAlignment="Top" Width="75" Click="btn_invoice_Click"/>
+        <Button x:Name="btn_certificate" Content="Certificate" HorizontalAlignment="Left" Margin="345,313,0,0" VerticalAlignment="Top" Width="75" Click="btn_certificate_Click"/>
+        <TextBox x:Name="txt_firstName" HorizontalAlignment="Left" Height="23" Margin="174,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="txt_secondName" HorizontalAlignment="Left" Height="23" Margin="303,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <TextBox x:Name="txt_attendeeRef" HorizontalAlignment="Left" Height="23" Margin="174,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="txt_institutionName" HorizontalAlignment="Left" Height="23" Margin="174,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <TextBox x:Name="txt_institutionAddress" HorizontalAlignment="Left" Height="23" Margin="174,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <TextBox x:Name="txt_conferenceName" HorizontalAlignment="Left" Height="23" Margin="174,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <TextBox x:Name="txt_paperTitle" HorizontalAlignment="Left" Height="23" Margin="174,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246"/>
+        <ComboBox x:Name="cmbBox_registrationType" HorizontalAlignment="Left" Margin="319,167,0,0" VerticalAlignment="Top" Width="101">
+            <ComboBoxItem Content="full"/>
+            <ComboBoxItem Content="student"/>
+            <ComboBoxItem Content="organiser"/>
+        </ComboBox>
+        <CheckBox x:Name="checkBox_paid" Content="" HorizontalAlignment="Left" Margin="403,204,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox_presenter" Content="" HorizontalAlignment="Left" Margin="403,235,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
